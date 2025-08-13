@@ -40,6 +40,8 @@ public class Main {
             System.out.println("Perdeu! Lagarto come o papel!");
         } else if (jogada == PAPEL) {
             System.out.println("Ganhou! Papel refuta o Spock!");
+
+            
         } else if (jogada == TESOURA && computador == PAPEL) {
             System.out.println("Ganhou. Tesoura corta o papel!");
         } else if (jogada == TESOURA && computador == TESOURA) {

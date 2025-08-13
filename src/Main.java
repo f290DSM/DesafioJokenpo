@@ -10,6 +10,7 @@ public class Main {
     private static int LAGARTO = 4;
     private static int SPOCK = 5;
 
+    //TODO: Criar e implementar a classe Tesoura
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

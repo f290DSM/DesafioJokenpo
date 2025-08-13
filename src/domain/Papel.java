@@ -1,6 +1,6 @@
 package domain;
 
-public class Papel extends Algoritmo {
+public class Papel implements Algoritmo {
     @Override
     public String executar(TipoJogada tipoJogada) {
         return switch (tipoJogada) {
